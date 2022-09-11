@@ -1,0 +1,465 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a1a1a;
+    
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+    background-color: #333333;
+}
+
+.menu{
+    width: 1000px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu span{
+    color: white;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    margin: 0px 20px;
+    float: left;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.btn-mobile img{
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+#inicio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inicio-area{
+    width: 1000px;
+    display: flex;
+    height: 500px;
+    align-items: center;
+    
+}
+.inicio-conteudo{
+    width: 500px;
+    height: 400px;
+}
+.inicio-conteudo h1{
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.inicio-conteudo p{
+    padding-top: 30px;
+    color: #a6a6a6;
+}
+.inicio-button{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+}
+.btn-1 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.btn-1{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+}
+.btn-1{
+    background-color: black;
+    color: white;
+}
+
+.inicio-conteudo2{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-wrap:wrap;
+}
+.inicio-conteudo-area1{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+.inicio-conteudo-area1 span{
+    text-align: center;
+}
+.conteudo-area1-imagem{
+    width: 250px;
+    height: 150px;
+}
+.conteudo-area1-imagem{
+    width: 150px;
+    height: 150px;
+} .conteudo-area1-imagem img{
+    width: 150px;
+    height: 150px;
+}
+.inicio-conteudo-area2{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    background-color: #f2f2f2;
+}
+.conteudo-area-none{
+    width: 100px;
+    height: 100px;
+    display: none;
+    text-align: center;
+}
+.conteudo-imagem{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo-imagem img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.inicio-conteudo-area2 p{
+    text-align: center;
+}
+
+.conteudo-button{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: crimson;
+}
+.conteudo-button:hover{
+    background-color:darkgray;
+}
+.inicio-conteudo-area3{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 265px;
+    background-color: black;
+}
+.conteudo-area3-imagem{
+    width: 90px;
+    height: 80px;
+    
+}
+.conteudo-area3-imagem img{
+    width: 90px;
+    height: 80px;
+}
+.conteudo-area3-texto{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+}
+.conteudo-area3-texto p{
+    color: #d9d9d9;
+    padding-left: 3px;
+    padding-top: 5px;
+    font-size: 11px;
+    margin: 0;
+}
+.conteudo-area3-texto span{
+    padding-left: 3px;
+    color: white;
+    font-weight: bold;
+}
+#sobre{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sobre-area{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.sobre-area-conteudo{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.sobre-area-imagem{
+    width: 400px;
+    height: 430px;
+}
+.p2{
+    margin: 0;
+}
+
+.sobre-area-imagem img{
+    width: 400px;
+    height: 430px;
+}
+.sobre-area-conteudo2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.sobre-area-texto{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    color: #a6a6a6;
+    flex-direction: column;
+}
+.sobre-area-texto h2,p{
+    padding-left: 10px;
+}
+#personagens{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conquistas-area{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.conquistas-area-coluna{
+    width: 200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conquista-imagem{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.conquista-imagem img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.conquistas-area-coluna p{
+    text-align: center;
+    color: #bfbfbf;
+}
+.conquistas-area-coluna span{
+    font-weight: bold;
+    color: white;
+}
+
+[data-item]{
+    opacity: 0;
+    transition: .3s;
+
+}
+[data-item="left"]{
+    transform: translate3d(-50px 0, 0);
+}
+[data-item="right"]{
+    transform: translate3d(50px 0, 0);
+}
+[data-item].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+@media(max-width:1015px){
+    .inicio-area{
+        flex-direction: column;
+    }
+    .inicio-button{
+        width: 100%;
+        height: 40px;
+
+    }
+    .inicio-button{
+        margin: 0;
+    }
+    .inicio-conteudo{
+        width: 100%;
+        height: 200px;
+    }
+    .inicio-conteudo-area3{
+        margin-left: 0px;
+
+    }
+    .inicio-conteudo-area1{
+        height: 280px;
+    }
+    .inicio-conteudo2{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        justify-content: space-around;
+    }
+    .inicio-conteudo p{
+        text-align: center;
+    }
+    .sobre-area{
+        height: 100%;
+        flex-direction: column;
+    }
+    .sobre-area-conteudo{
+        width: 100%;
+    }
+    .sobre-area-imagem{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .sobre-area-imagem img{
+        width: 300px;
+        height: 300px;
+    }
+    .sobre-area-texto{
+        height: 100%; 
+        
+    }
+    .sobre-area-texto p{
+        font-size: 13px;
+    }
+    .sobre-area-conteudo2{
+        text-align: center;
+        width: 100%;
+        
+    }
+    .sobre-area-texto h2{
+        padding-top: 20px;
+    }
+}
+
+@media(max-width:768px){
+    .inicio-conteudo {
+        height: 100%;
+       
+    }
+    .btn-mobile img{
+        display: flex;
+    }
+    nav ul{
+        display: none;
+        position: absolute;
+        width: 150px;
+        top: 70px;
+        right: 0px;
+        height: 200px;
+        flex-direction: column;
+        justify-content: space-around;
+        transition: .6s;
+        background-color:black;
+      }
+      nav ul.active{
+        display: flex;
+      }
+     
+    .inicio-conteudo p{
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    .btn-1{
+        line-height: 35px;
+        height: 35px;
+    }
+ 
+    .inicio-conteudo h1{
+        
+        font-size: 25px;
+        padding-top: 70px;
+    }
+    .inicio-conteudo-area1{
+        width: 200px;
+        height: 200px;
+    }
+    .conteudo-area1-imagem,
+    .conteudo-area1-imagem img{
+        width: 100px;
+        height: 100px;
+    }
+  .sobre-area-imagem img{
+    width: 200px;
+    height: 200px;
+  }
+ .conquistas-area{
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+ }
+    
+}
+@media(max-width:628px){
+    .inicio-conteudo-area3{
+        display: none;
+    }
+}
+@media(max-width:425px){
+    
+    .sobre-area-texto p{
+        font-size: 10px;
+    }
+   
+    .inicio-conteudo2{
+        width: 100%;
+        flex-direction: column;
+    }
+    .inicio-conteudo-area2{
+        width: 100%;
+        height: 200px;
+        display: none;
+    }
+    .inicio-conteudo-area1,
+    .inicio-conteudo-area2{
+        width: 100%;
+    }
+
+}
